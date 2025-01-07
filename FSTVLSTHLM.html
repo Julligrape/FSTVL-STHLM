@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musikfestivalen</title>
+  <link rel="stylesheet" href="Musikfestival.css">
+  <script defer src="Musikfestival.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="hamburger-menu" id="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <h1>FSTVL<br>STHLM</h1>
+    <p>Organized by Stockholm City</p>
+  </header>
+
+  <nav id="nav-menu" class="nav-menu">
+    <ul>
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#artists">Artists</a></li>
+      <li><a href="#stages">Stages</a></li>
+      <li><a href="#schedule">Schedules</a></li>
+      <li><a href="#info">Food/Drinks/Activities</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h2>Welcome to the music festival <br> FSTVL STHLM!</h2>
+      <p>Celebrate music and culture in our beautiful Stockholm during the 23rd and 24th of July. You will find us at Gärdet's large
+        grass field with space for food trucks, activities, exhibitors, and our four large stages. <br><br> All of our artists play for two hours each and the festival area open at 12pm and close at 10pm both days.</p>
+    </section>
+
+    <section id="artists">
+      <h3>Artists</h3>
+      <div class="artist-list"></div>
+    </section>
+
+    <section id="stages">
+      <h3>Stages</h3>
+      <div class="stage-list"></div>
+    </section>
+
+    <section id="schedule">
+      <section id="schedule-friday">
+        <h3>Schedule - Friday, 25th July</h3>
+        <div class="schedule-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Echo Stage</th>
+                <th>Sunset Arena</th>
+                <th>Skyline Stage</th>
+                <th>Bassline Tent</th>
+              </tr>
+            </thead>
+            <tbody id="schedule-body-friday">
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="schedule-saturday">
+        <h3>Schedule - Saturday, 26th July</h3>
+        <div class="schedule-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Echo Stage</th>
+                <th>Sunset Arena</th>
+                <th>Skyline Stage</th>
+              </tr>
+            </thead>
+            <tbody id="schedule-body-saturday">
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <section id="food-drinks">
+      <h3>Food and Drink</h3>
+      <div class="info-card">
+        <p>The festival area will be packed with exciting food trucks. There will also be a rich selection of refreshing alcoholic and non-alcoholic drinks in our bars and at our exhibitors.
+          Bring your friends and enjoy Sweden's hottest artists together with good food and beverages!
+          <br><br>
+          In addition to great live music, good food and drinks, you will be able to have fun at the festival's various activities.
+          In true festival spirit, you and your friends will be able to play beer pong, sing karaoke or dance in our Silent Disco tent.
+          A large Ferris wheel and fairground will also be available on the festival grounds for the thrill-seeking visitor.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>&copy; 2025 FSTVL STHLM. All rights reserved.</p>
+    <p>Contact: info@fstvlsthlm.se</p>
+  </footer>
+</body>
+</html>
